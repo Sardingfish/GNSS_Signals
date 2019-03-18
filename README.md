@@ -16,7 +16,7 @@ function C_A = generateC_A( PRN , CodeLength , Delay)
 %     PRN           i     PRN number
 %     CodeLength    i     C/A code length
 %     Delay         i     C/A code delay
-%  Returned:
+% Returned:
 %     C_A           d     C/A code
 ```
 
@@ -27,7 +27,7 @@ function Rkl = Relafunc(Rk , Rl , CodeLength , NUM)
 %     Rk , Rl       i     First C/A code and Second C/A code
 %     CodeLength    i     C/A code length
 %     NUM           i     Number of chips  
-%  Returned:
+% Returned:
 %     Rkl           d     Correlation functions
 ```
 
