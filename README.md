@@ -60,7 +60,7 @@ function AllanVariance = AVAR_Freq(FrequencySequence)
 
 The corresponding formula is:
 
-![](image/AVAR.png)
+![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/AVAR.png)
 
 ---
 
