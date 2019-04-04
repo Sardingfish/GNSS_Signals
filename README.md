@@ -59,10 +59,8 @@ function AllanVariance = AVAR_Freq(FrequencySequence)
 ~~~
 
 The corresponding formula is:
-$$
-\sigma_y^2(\tau)=\frac{1}{2(N-2)\tau^2}\sum_{i=1}^{N-2}[x_{i+2}-2x_{i+1}+x_i]^2\\
-\sigma_y^2(\tau)=\frac{1}{2(M-1)}\sum_{i=1}^{M-1}[y_{i+1}-x_{i}]^2
-$$
+
+![](image/AVAR.png)
 
 ---
 
