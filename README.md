@@ -7,6 +7,11 @@
 
 ### Subroutines
 
+| NO.  | M FILES         | FUNCTION                                                     |
+| ---- | --------------- | ------------------------------------------------------------ |
+| 1    | CAcode.m        | Generate a C/A code and calculate the correlation function between C/A codes. |
+| 2    | AllanVariance.m | Calculate the Alan variance of the phase or frequency sequence. |
+
 - **CAcode.m**
 
   The purpose of the function is to generate a C/A code and calculate the correlation function between C/A codes.
