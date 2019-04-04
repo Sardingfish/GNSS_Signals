@@ -7,7 +7,9 @@
 
 ### Subroutines
 
-- **CAcode.m**：The purpose of the function is to generate a C/A code and calculate the correlation function between C/A codes.
+- **CAcode.m**
+
+  The purpose of the function is to generate a C/A code and calculate the correlation function between C/A codes.
 
 ```matlab
 function C_A = generateC_A(PRN,CodeLength,Delay)
@@ -33,7 +35,9 @@ function Rkl = Relafunc(Rk,Rl,CodeLength,NUM)
 
 ---
 
-- **AllanVariance.m**：The purpose of the function is to calculate the Alan variance of the phase or frequency sequence.
+- **AllanVariance.m**
+
+  The purpose of the function is to calculate the Alan variance of the phase or frequency sequence.
 
 ~~~matlab
 function AllanVariance = AVAR_Phase(PhaseSequence,tau)
