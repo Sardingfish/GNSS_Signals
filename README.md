@@ -8,9 +8,9 @@
 ### Subroutines
 
 | NO.  | M FILES         | FUNCTION                                                     |
-| ---- | --------------- | ------------------------------------------------------------ |
-| 1    | CAcode.m        | Generate a C/A code and calculate the correlation function between C/A codes. |
-| 2    | AllanVariance.m | Calculate the Alan variance of the phase or frequency sequence. |
+| :--: | --------------- | ------------------------------------------------------------ |
+|  1   | CAcode.m        | Generate different PRN's C/A code and calculate the correlation function between two C/A codes. |
+|  2   | AllanVariance.m | Calculate the Alan variance of the clock difference(phase) sequence or frequency sequence. |
 
 - **CAcode.m**
 
@@ -46,7 +46,7 @@ function Rkl = Relafunc(Rk,Rl,CodeLength,NUM)
 
 ~~~matlab
 function AllanVariance = AVAR_Phase(PhaseSequence,tau)
-% Calculate the Alan variance of the time difference (phase) sequence.
+% Calculate the Alan variance of the clock difference (phase) sequence.
 % Given:
 %       PhaseSequence        Phase sequence  
 %       tau                  Sampling interval              
