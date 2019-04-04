@@ -15,22 +15,22 @@
 function C_A = generateC_A(PRN,CodeLength,Delay)
 % Generate C/A code
 % Given:
-%     PRN           i     PRN number
-%     CodeLength    i     C/A code length
-%     Delay         i     C/A code delay
+%     PRN             i      PRN number
+%     CodeLength      i      C/A code length
+%     Delay           i      C/A code delay
 % Returned:
-%     C_A           d     C/A code
+%     C_A             d      C/A code
 ```
 
 ```matlab
 function Rkl = Relafunc(Rk,Rl,CodeLength,NUM)
 % Generate two C/A code correlation functions
 % Given:
-%       Rk , Rl       i     First C/A code and Second C/A code
-%       CodeLength    i     C/A code length
-%       NUM           i     Number of chips  
+%       Rk , Rl       i      First C/A code and Second C/A code
+%       CodeLength    i      C/A code length
+%       NUM           i      Number of chips  
 % Returned:
-%       Rkl           d     Correlation functions
+%       Rkl           d      Correlation functions
 ```
 
 ---
@@ -43,18 +43,18 @@ function Rkl = Relafunc(Rk,Rl,CodeLength,NUM)
 function AllanVariance = AVAR_Phase(PhaseSequence,tau)
 % Calculate the Alan variance of the time difference (phase) sequence.
 % Given:
-%       PhaseSequence      Phase sequence  
-%       tau                Sampling interval              
+%       PhaseSequence        Phase sequence  
+%       tau                  Sampling interval              
 % Returned:
-%       AllanVariance      Allan variance
+%       AllanVariance        Allan variance
 ~~~
 
 ~~~matlab
 function AllanVariance = AVAR_Freq(FrequencySequence)
 % Calculate the Alan variance of the frequency sequence.
 % Given:
-%       FrequencySequence      Frequency sequence                 
+%       FrequencySequence    Frequency sequence                 
 % Returned:
-%       AllanVariance          Allan variance
+%       AllanVariance        Allan variance
 ~~~
 
