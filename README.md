@@ -106,4 +106,27 @@ function Mod_AllanVariance = MAVAR_Freq(FrequencySequence,m)
 
 
 
-[1]郭海荣. 导航卫星原子钟时频特性分析理论与方法研究[D].解放军信息工程大学,2006.
+[1]Guo,H.R. . Study on the Analysis Theories and Algorithms of the Time and Frequency Characterization for Atomic Clocks of Navigation Satellites[D].Information Engineering University,2006.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
