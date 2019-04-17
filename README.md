@@ -14,7 +14,7 @@
 
 
 
-#### Several commonly used variances.
+#### Several commonly used variances[1].
 
 |             type              |                            symbol                            | description                                                  |
 | :---------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
@@ -104,3 +104,6 @@ function Mod_AllanVariance = MAVAR_Freq(FrequencySequence,m)
 %       Mod_AllanVariance    Modified Allan variance
 ~~~
 
+
+
+[1]郭海荣. 导航卫星原子钟时频特性分析理论与方法研究[D].解放军信息工程大学,2006.

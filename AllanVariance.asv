@@ -21,8 +21,10 @@ M = length(PhaseSequence);
 M_= fix(M/m)+1;
 bias = zeros(M_,1);
 for i = 1:M_-2
-    if ((i+1)*m+1 <= M)
-        bias(i,1) = PhaseSequence((i+1)*m+1)-2*PhaseSequence(i*m+1)+PhaseSequence((i-1)*m+1);
+    if i < M_-2
+        bias(i,1) = PhaseSequence(i*2m+1)-2*PhaseSequence(i*m+1)+PhaseSequence();
+    else
+        bias(i,1) = 
     end
 end
 AllanVariance=(bias*bias')/(2*(N-2)*tau*tau);
