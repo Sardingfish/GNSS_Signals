@@ -71,17 +71,17 @@ The corresponding formula is:
 
 #### Several commonly used variances.
 
-|             type              |           symbol            | description                                                  |
-| :---------------------------: | :-------------------------: | ------------------------------------------------------------ |
-|       Standard Variance       |            $S^2$            | Calculated based on the relative frequency deviation relative to the square of its mean. |
-|        Allan Variance         |     $\sigma_y^2(\tau)$      | Calculated based on the relative frequency deviation relative to the square of its mean. |
-|  Overlapping Allan Variance   |     $\sigma_y^2(\tau)$      | Calculating the Allan variance based on full overlap sampling. |
-|        Total Variance         |  $\sigma_{total}^2(\tau)$   | Calculate the Allan variance using the extended data.        |
-|    Modified Allan Variance    |    $Mod\sigma_y^2(\tau)$    | Calculating the Allan variance based on the relative frequency deviation or the mean of the time difference data. |
-|    Modified Total Variance    | $Mod\sigma_{total}^2(\tau)$ | Calculate "Modified the Allen Variance" with the extended data. |
-|         Time Variance         |     $\sigma_x^2(\tau)$      | $\frac{\tau^2}{3}Mod\sigma_y^2(\tau)$                        |
-|      Time Total Variance      | $\sigma_{total x}^2(\tau)$  | $\frac{\tau^2}{3}Mod\sigma_{total}^2(\tau)$                  |
-|       Hadamard Variance       |     $H\sigma_y^2(\tau)$     | Calculation based on the second difference of the relative frequency deviation or the cubic difference of the time difference data. |
-| Overlapping Hadamard Variance |     $H\sigma_y^2(\tau)$     | The Hadamard variance is calculated based on full overlap sampling. |
-|    Hadamard Total Variance    |  $H\sigma_{total}^2(\tau)$  | Calculate the Hadamard variance using the extended data.     |
+|             type              |                            symbol                            | description                                                  |
+| :---------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+|       Standard Variance       | <a href="https://www.codecogs.com/eqnedit.php?latex=$S^2$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$S^2quot; title="$S^2quot; /></a> | Calculated based on the relative frequency deviation relative to the square of its mean. |
+|        Allan Variance         |                      $\sigma_y^2(\tau)$                      | Calculated based on the relative frequency deviation relative to the square of its mean. |
+|  Overlapping Allan Variance   |                      $\sigma_y^2(\tau)$                      | Calculating the Allan variance based on full overlap sampling. |
+|        Total Variance         |                   $\sigma_{total}^2(\tau)$                   | Calculate the Allan variance using the extended data.        |
+|    Modified Allan Variance    |                    $Mod\sigma_y^2(\tau)$                     | Calculating the Allan variance based on the relative frequency deviation or the mean of the time difference data. |
+|    Modified Total Variance    |                 $Mod\sigma_{total}^2(\tau)$                  | Calculate "Modified the Allen Variance" with the extended data. |
+|         Time Variance         |                      $\sigma_x^2(\tau)$                      | $\frac{\tau^2}{3}Mod\sigma_y^2(\tau)$                        |
+|      Time Total Variance      |                  $\sigma_{total x}^2(\tau)$                  | $\frac{\tau^2}{3}Mod\sigma_{total}^2(\tau)$                  |
+|       Hadamard Variance       |                     $H\sigma_y^2(\tau)$                      | Calculation based on the second difference of the relative frequency deviation or the cubic difference of the time difference data. |
+| Overlapping Hadamard Variance |                     $H\sigma_y^2(\tau)$                      | The Hadamard variance is calculated based on full overlap sampling. |
+|    Hadamard Total Variance    |                  $H\sigma_{total}^2(\tau)$                   | Calculate the Hadamard variance using the extended data.     |
 
