@@ -73,15 +73,15 @@ The corresponding formula is:
 
 |             type              |                            symbol                            | description                                                  |
 | :---------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
-|       Standard Variance       | <a href="https://www.codecogs.com/eqnedit.php?latex=$S^2$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$S^2quot; title="$S^2quot; /></a> | Calculated based on the relative frequency deviation relative to the square of its mean. |
-|        Allan Variance         |                      $\sigma_y^2(\tau)$                      | Calculated based on the relative frequency deviation relative to the square of its mean. |
-|  Overlapping Allan Variance   |                      $\sigma_y^2(\tau)$                      | Calculating the Allan variance based on full overlap sampling. |
-|        Total Variance         |                   $\sigma_{total}^2(\tau)$                   | Calculate the Allan variance using the extended data.        |
-|    Modified Allan Variance    |                    $Mod\sigma_y^2(\tau)$                     | Calculating the Allan variance based on the relative frequency deviation or the mean of the time difference data. |
-|    Modified Total Variance    |                 $Mod\sigma_{total}^2(\tau)$                  | Calculate "Modified the Allen Variance" with the extended data. |
-|         Time Variance         |                      $\sigma_x^2(\tau)$                      | $\frac{\tau^2}{3}Mod\sigma_y^2(\tau)$                        |
-|      Time Total Variance      |                  $\sigma_{total x}^2(\tau)$                  | $\frac{\tau^2}{3}Mod\sigma_{total}^2(\tau)$                  |
-|       Hadamard Variance       |                     $H\sigma_y^2(\tau)$                      | Calculation based on the second difference of the relative frequency deviation or the cubic difference of the time difference data. |
-| Overlapping Hadamard Variance |                     $H\sigma_y^2(\tau)$                      | The Hadamard variance is calculated based on full overlap sampling. |
-|    Hadamard Total Variance    |                  $H\sigma_{total}^2(\tau)$                   | Calculate the Hadamard variance using the extended data.     |
+|       Standard Variance       | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn.gif) | Calculated based on the relative frequency deviation relative to the square of its mean. |
+|        Allan Variance         | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn(11).gif) | Calculated based on the relative frequency deviation relative to the square of its mean. |
+|  Overlapping Allan Variance   | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn(11).gif) | Calculating the Allan variance based on full overlap sampling. |
+|        Total Variance         | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (1).gif) | Calculate the Allan variance using the extended data.        |
+|    Modified Allan Variance    | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (2).gif) | Calculating the Allan variance based on the relative frequency deviation or the mean of the time difference data. |
+|    Modified Total Variance    | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (3).gif) | Calculate "Modified the Allen Variance" with the extended data. |
+|         Time Variance         | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (4).gif) | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (5).gif) |
+|      Time Total Variance      | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (6).gif) | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (7).gif) |
+|       Hadamard Variance       | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (8).gif) | Calculation based on the second difference of the relative frequency deviation or the cubic difference of the time difference data. |
+| Overlapping Hadamard Variance | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (9).gif) | The Hadamard variance is calculated based on full overlap sampling. |
+|    Hadamard Total Variance    | ![](https://raw.githubusercontent.com/Sardingfish/GNSS_Signals/master/image/CodeCogsEqn (10).gif) | Calculate the Hadamard variance using the extended data.     |
 
